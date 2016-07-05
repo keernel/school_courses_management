@@ -1,26 +1,26 @@
-# Edools - Backend Assignment - Fernando Varani
+# School Courses Management
 
-Excelente desafio, bem elaborado e divertido de fazer. Gostaria de ter tido mais tempo para realizar.
-Fiz apenas testes de modelos e das features, que foram necessários para garantir o funcionamento total do app. Mas com mais tempo eu teria feito specs dos controllers.
+Small Rails Project to manage Schools and Courses data.
+Sample app to show a bit of my code skills.
 
-## 1- Configurando ambiente
+## 1- Setting it up
 $ bundle install
 $ rake db:create
 $ rake db:migrate
-$ rake db:seed (Tem uma prompt de confirmação para limpar o DB)
+$ rake db:seed (There is a confirmation prompt, to clean database if needed)
 
-## 2- Rodando os Specs
+## 2- Specs
 $ rspec -f doc
 
-## Code Coverage com Simplecov
-Após rodar os testes, será criado um html com um report sobre a cobertura dos testes.
+## Code Coverage with Simplecov
+Check it out on coverage/index.html
 ( https://github.com/colszowka/simplecov ) 
 
 ## Features
 
-- Gerenciamento de Escolas e Cursos
-- Buscar Curso e Escola por Nome e filtrar cursos por escola
-- Relatório de Alunos Ativos por escola
-- Adicionar validação no atributo Subdomínio da Escola, para que este possa ser usado para criar subdomínios do Edools (Ex: academia-bizstart.edools.com)
+- Management of Schools and Courses
+- Find course and school by name and filter courses by school
+- Report for active students per school
 
-*Obrigado pela oportunidade.*
+Fernando Varani
+keernel
